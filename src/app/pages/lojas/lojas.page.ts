@@ -32,11 +32,11 @@ export class LojasPage implements OnInit {
     }).addTo(this.map);
 
     var myIcon = icon({
-    iconUrl: '/assets/local.png',
+    iconUrl: 'assets/local.png',
     iconSize: [28, 28],
     iconAnchor: [14, 25],
     popupAnchor: [0, -22],
-    shadowUrl: '/assets/local-shadow.png',
+    shadowUrl: 'assets/local-shadow.png',
     shadowSize: [28, 28],
     shadowAnchor: [14, 25]
     });
